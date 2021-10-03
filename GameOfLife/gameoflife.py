@@ -36,6 +36,7 @@ def refresh(frame_data, grid, image, size):
 
 def main():
     n = 100
+    interval = 50
 
     if len(argv) >= 2:
         n = int(argv[1])
